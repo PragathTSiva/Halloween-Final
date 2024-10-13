@@ -11,16 +11,6 @@ A comprehensive tool to plan Halloween group costumes and find parties based on 
 - Research ticket prices and purchasing information for parties
 - Compile all information into a cohesive Halloween plan with a day-by-day itinerary
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 1. Clone the repository:
