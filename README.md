@@ -34,6 +34,7 @@ text
 Create a `.env` file in the root directory and add your API keys:
 
 SERPER_API_KEY=your_serper_api_key_here
+
 OPENAI_API_KEY=your_open_api_key_here
 text
 
