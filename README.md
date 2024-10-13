@@ -59,7 +59,7 @@ python app.py
 
 4. The application will return a comprehensive Halloween plan including costume ideas, party suggestions, and a day-by-day itinerary.
 
-##Project Structure:
+## Project Structure:
 
 1. main.py: Contains the main logic for the Halloween Planner Crew
 
@@ -77,7 +77,7 @@ python app.py
 
 8. tasks.yaml: Configuration for tasks
 
-##Configuration
+## Configuration
 
 1. The project uses YAML files for configuration. You can modify the behavior of agents and tasks by editing the files in the config/ directory.
 agents.yaml
@@ -108,7 +108,7 @@ json
   "costumes": object
 }
 
-##Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
