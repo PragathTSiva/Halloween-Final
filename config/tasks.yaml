@@ -1,0 +1,94 @@
+
+group_costume_planning_task:
+  description: >
+    Generate creative group costume ideas for a group of {num_people} people based on their interests: {interests}.
+    For each group costume idea, provide Amazon links for each person in the group costume.
+    Ensure the costumes are appropriate for college students and suitable for Halloween parties.
+    Consider the group's budget when selecting costume options.
+
+    Group's information:
+
+    - Number of people: {num_people}
+
+    - Interests: {interests}
+
+    - Budget: {budget}
+  expected_output: >
+    A list of group costume ideas.
+    Each entry should include:
+
+    - The group costume theme.
+
+    - A brief description explaining why it suits the group's interests.
+
+    - Amazon links for each person in the group to purchase or assemble their costume.
+
+    - An estimated total cost to ensure it fits within the group's budget.
+
+party_finding_task:
+  description: >
+    Find college parties in {location} happening on the dates: {out_dates} that are suitable for a group aged {age}.
+    Provide one party recommendation for each specified date.
+    Use internet search tools, college event calendars, and social media platforms to find the most popular parties.
+
+    Group's information:
+
+    - Location: {location}
+
+    - Dates: {out_dates}
+
+    - Age of group members: {age}
+  expected_output: >
+    A list of party recommendations, one for each specified date.
+    Each entry should include:
+
+    - Party name.
+
+    - Date and time.
+
+    - Location/address.
+
+    - Age requirement (ensure it matches the group's age).
+
+    - A brief description of the party, including the theme (if any), expected attendance, and any cover charges.
+
+    - Links to event pages or tickets (if available).
+
+itinerary_compilation_task:
+  description: >
+    Compile all the gathered information into a comprehensive day-by-day itinerary for the group's Halloween plans in {location}.
+    The itinerary should include the group costume ideas and the party details for each day.
+    Ensure that the plan is cohesive, fits within the group's budget of {budget}, and aligns with their interests.
+
+    Group's information:
+
+    - Number of people: {num_people}
+
+    - Interests: {interests}
+
+    - Location: {location}
+
+    - Dates: {out_dates}
+
+    - Age of group members: {age}
+
+    - Total budget: {budget}
+  expected_output: >
+    A detailed itinerary document that includes:
+
+    - An overview of the trip, including dates and location.
+
+    - For each day:
+
+      - Date.
+
+      - Group costume idea with descriptions and Amazon links.
+
+      - Party details with all relevant information.
+
+      - Any additional notes or recommendations.
+
+    - A summary of the total estimated cost to ensure it aligns with the group's budget.
+
+    - Tips for preparation and any important considerations (e.g., purchasing costumes in advance, ticket availability).
+
