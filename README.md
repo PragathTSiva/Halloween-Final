@@ -59,14 +59,22 @@ python app.py
 
 4. The application will return a comprehensive Halloween plan including costume ideas, party suggestions, and a day-by-day itinerary.
 
-Project Structure
+Project Structure:
+
 main.py: Contains the main logic for the Halloween Planner Crew
+
 agents.py: Defines the AI agents used in the planning process
+
 tasks.py: Specifies the tasks performed by each agent
+
 models.py: Defines the data models used in the application
+
 app.py: Flask application for API access
+
 config/: Contains configuration files
+
 agents.yaml: Configuration for AI agents
+
 tasks.yaml: Configuration for tasks
 
 Configuration
