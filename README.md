@@ -59,30 +59,33 @@ python app.py
 
 4. The application will return a comprehensive Halloween plan including costume ideas, party suggestions, and a day-by-day itinerary.
 
-Project Structure:
+##Project Structure:
 
-main.py: Contains the main logic for the Halloween Planner Crew
+1. main.py: Contains the main logic for the Halloween Planner Crew
 
-agents.py: Defines the AI agents used in the planning process
+2. agents.py: Defines the AI agents used in the planning process
 
-tasks.py: Specifies the tasks performed by each agent
+3. tasks.py: Specifies the tasks performed by each agent
 
-models.py: Defines the data models used in the application
+4. models.py: Defines the data models used in the application
 
-app.py: Flask application for API access
+5. app.py: Flask application for API access
 
-config/: Contains configuration files
+6. config/: Contains configuration files
 
-agents.yaml: Configuration for AI agents
+7. agents.yaml: Configuration for AI agents
 
-tasks.yaml: Configuration for tasks
+8. tasks.yaml: Configuration for tasks
 
-Configuration
-The project uses YAML files for configuration. You can modify the behavior of agents and tasks by editing the files in the config/ directory.
+##Configuration
+
+1. The project uses YAML files for configuration. You can modify the behavior of agents and tasks by editing the files in the config/ directory.
 agents.yaml
-This file defines the roles, goals, and backstories for each AI agent used in the planning process.
+
+2. This file defines the roles, goals, and backstories for each AI agent used in the planning process.
 tasks.yaml
-This file specifies the descriptions and expected outputs for each task in the planning process.
+
+3. This file specifies the descriptions and expected outputs for each task in the planning process.
 API Reference
 
 POST /plan-halloween
@@ -105,12 +108,18 @@ json
   "costumes": object
 }
 
-Contributing
+##Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
+
 Fork the repository
+
 Create your feature branch (git checkout -b feature/AmazingFeature)
+
 Commit your changes (git commit -m 'Add some AmazingFeature')
+
 Push to the branch (git push origin feature/AmazingFeature)
+
 Open a Pull Request
 
 
